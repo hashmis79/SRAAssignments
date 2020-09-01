@@ -1,2 +1,2 @@
-# Robofever
-Repository for Robofever : home automation project
+# SRA (Image Processing)
+Repository for SRA assignments
