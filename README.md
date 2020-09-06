@@ -89,14 +89,34 @@ How to run the driver code
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.  
-[**result screenshots**](https://result.png)  
-![**result gif or video**](https://result.gif)  
-###Image Rotation
+### Image Rotation
 | Use  |  Table  |
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
-
+### Applying Kernels
+| Use  |  Table  |
+|:----:|:-------:|
+|![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
+|Box Filter|Gaussian Filter|Sharpen Filter|
+|:----:|:-------:|
+|![result screenshots](Images/Blur2(Box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
+|Box Filter|Gaussian Filter|Sharpen Filter|
+|:----:|:-------:|
+### Edge-Detection
+| Use  |  Table  |
+|:----:|:-------:|
+|![result screenshots](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|![result screenshots1](Images/Sharpen1.png)|
+|Vertical Edge Detection|
+|:----:|:-------:|
+|![result screenshots](Images/Horizontal1.png)|![result screenshots1](Images/Horizontal2.png)|![result screenshots1](Images/Sharpen1.png)|
+|Horizontal Edge Detection|
+|:----:|:-------:|
+|![result screenshots](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|![result screenshots1](Images/Sharpen1.png)|
+|Sobel Edge Detection|
+|:----:|:-------:|
+|![result screenshots](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|![result screenshots1](Images/Sharpen1.png)|
+|Canny Edge Detection|
+|:----:|:-------:|
 
 <!-- FUTURE WORK -->
 ## Future Work
