@@ -94,12 +94,14 @@ How to run the driver code
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
+|  Use  | Table |  Here |
 |:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 |![result screenshots](Images/Blur2(Box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 ### Edge-Detection
+|  Use |  Table  |  Here |
 |:----:|:-------:|:-----:|
 |![result screenshots](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|![result screenshots1](Images/Sharpen1.png)|
 |Vertical Edge Detection|
