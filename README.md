@@ -95,7 +95,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 ###Image Rotation
 | Use  |  Table  |
 |:----:|:-------:|
-|[**result screenshots**](https://github.com/hashmis79/SRAAssignments/blob/master/Images/rotate1.png)|[**result screenshots**](https://github.com/hashmis79/SRAAssignments/blob/master/Images/rotate2.png)|
+|![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 
 
 <!-- FUTURE WORK -->
