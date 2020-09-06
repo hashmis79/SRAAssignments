@@ -73,7 +73,7 @@ How to install them
 pip install -r "requirements.txt"
 ```
 
-### Installation
+<!-- ### Installation
 1. Clone the repo
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
@@ -81,11 +81,11 @@ git clone https://github.com/your_username_/Project-Name.git
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 ```
 How to run the driver code
-```
-
+``` -->
+ -->
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
@@ -103,25 +103,25 @@ How to run the driver code
 ### Edge-Detection
 |  Use |  Table  |  Here |
 |:----:|:-------:|:-----:|
-|![result screenshots](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
 |Vertical Edge Detection|
 ||
-|![result screenshots](Images/Horizontal1.png)|![result screenshots1](Images/Horizontal2.png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Horizontal1.png)|![result screenshots1](Images/Horizontal2.png)|
 |Horizontal Edge Detection|
 ||
-|![result screenshots](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|
 |Sobel Edge Detection|
 ||
-|![result screenshots](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|
 |Canny Edge Detection|
 
 <!-- FUTURE WORK -->
-## Future Work
+<!-- ## Future Work
 * See [todo.md](https://todo.md) for seeing developments of this project
 - [x] Task 1
 - [x] Task 2
 - [ ] Task 3
-- [ ] Task 4
+- [ ] Task 4 -->
 
 
 <!-- TROUBLESHOOTING -->
@@ -131,8 +131,7 @@ How to run the driver code
 
 <!-- CONTRIBUTORS -->
 ## Contributors
-* [Member Name](https://github.com/id)
-* [Member Name](https://github.com/id)
+* [Saad Hashmi](https://github.com/hashmis79)
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
