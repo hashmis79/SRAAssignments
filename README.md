@@ -82,10 +82,14 @@ How to run the driver code
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
 ### Image Rotation
+Image rotation is a common image processing routine with applications in matching, alignment, and other image-based algorithms.
 | | |
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
+An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
+1) Blurring
+2) Sharpening
 | | | |
 |:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
@@ -120,15 +124,15 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 Morphological Transformations are some simple operations based on the image shape. It is normally performed on binary images.The basic operations we will be doing will be
 1) Erosion - It basically erodes away the boundaries of the foreground object. Hence used for image noise reduction.
 2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
-| | | | |
-|:---:|:---:|:---:|:---:|
+| | | |
+|:---:|:---:|:---:|
 |![result screenshots](Images/morphological.png)|![result screenshots1](Images/Erosion.png)|![result screenshots1](Images/Dilation.png)|
 |Original|Erosion|Dilation|
 ### Masking
 A mask is a binary image consisting of zero- and non-zero values. If a mask is applied to another binary or to a grayscale image of the same size, all pixels which are zero in the mask are set to zero in the output image. All others remain unchanged.
 | | |
 |:---:|:------:|
-|![result screenshots2](Images/mask.jpg)|![result screenshots2](Images/masking.png)|
+|![result screenshots2](Images/mask.jpg)|![result screenshots2](Images/Masking.png)|
 |Original|Masking|
 ### Region Of Interest
 A region of interest (ROI) is a portion of an image that you want to filter or perform some other operation on. You define an ROI by creating a binary mask, which is a binary image that is the same size as the image you want to process with pixels that define the ROI set to 1 and all other pixels set to 0.
