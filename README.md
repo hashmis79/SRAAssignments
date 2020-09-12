@@ -22,7 +22,7 @@ Manually Applied Different Procedures in Image Processing
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com)  
+[![In this project][product-screenshot]](https://example.com)  
 
 Aim and Description of project.  
 Refer this [documentation](https://link/to/report/)
@@ -35,26 +35,18 @@ This section should list the technologies you used for this project. Leave any a
 
 ### File Structure
     .
-    ├── app.py                  # Explain the function preformed by this file in short
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── report.pdf          # Project report
-    │   └── results             # Folder containing screenshots, gifs, videos of results
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    ├── ...
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    ├── Images                  # Folder containing all the images and results
+    ├── ApplyKernel.ipynb       # Code for Applying different filters like blurring and sharpening on the image
+    ├── EdgeDetection.ipynb     # Code for detecting edge in an image using vertical, horizontal, Sobel and cranny edge detection               
+    ├── Masking.ipynb           # Code for Masking the blue colored ball from the image
+    ├── Morphological.ipynb     # Code for applying Erosion and Dilation operations of a binary image
     ├── README.md
-    ├── Setup.md                # If Installation instructions are lengthy
-    └── todo.md                 # If Future developments and current status gets lengthy
+    ├── ROI.ipynb               # Code for extracting the Region Of Interest from the image and masking it on a different part of Image
+    └── RotateImage.ipynb       # Code for Rotating an image by any angle
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +63,7 @@ How to install them
 * See if you can make requirements.txt  
 ```sh
 pip install -r "requirements.txt"
-```
+``` -->
 
 <!-- ### Installation
 1. Clone the repo
@@ -101,19 +93,25 @@ How to run the driver code
 |![result screenshots](Images/Blur2(Box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 ### Edge-Detection
+
 |  Use |  Table  |  Here |
 |:----:|:-------:|:-----:|
-|![result screenshots](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
+|![result screenshots2](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
 |Vertical Edge Detection|
 ||
-|![result screenshots](Images/Horizontal1.png)|![result screenshots1](Images/Horizontal2.png)|
+|![result screenshots2](Images/Horizontal1.png)|![result screenshots1](Images/Horizontal2.png)|
 |Horizontal Edge Detection|
 ||
-|![result screenshots](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|
+|![result screenshots2](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|
 |Sobel Edge Detection|
 ||
-|![result screenshots](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|
+|![result screenshots2](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|
 |Canny Edge Detection|
+### Morphological Transformation
+| Use |  Table | Here |
+|:---:|:------:|:----:|
+|![result screenshots2](Images/Erosion.png)|![result screenshots](Images/Dilation.png)|
+|Erosion|Dilation|
 
 <!-- FUTURE WORK -->
 <!-- ## Future Work
@@ -132,6 +130,7 @@ How to run the driver code
 <!-- CONTRIBUTORS -->
 ## Contributors
 * [Saad Hashmi](https://github.com/hashmis79)
+* [Member Name](https://github.com/id)
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
