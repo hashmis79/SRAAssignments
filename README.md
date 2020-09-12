@@ -8,16 +8,16 @@ Manually Applied Different Procedures in Image Processing
 * [About the Project](#about-the-project)
   * [Tech Stack](#tech-stack)
   * [File Structure](#file-structure)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
+<!-- * [Getting Started](#getting-started) -->
+  <!-- * [Prerequisites](#prerequisites) -->
+  <!-- * [Installation](#installation) -->
+<!-- * [Usage](#usage) -->
 * [Results and Demo](#results-and-demo)
-* [Future Work](#future-work)
+<!-- * [Future Work](#future-work) -->
 * [Troubleshooting](#troubleshooting)
 * [Contributors](#contributors)
 * [Acknowledgements and Resources](#acknowledgements-and-resources)
-* [License](#license)
+<!-- * [License](#license) -->
 
 
 <!-- ABOUT THE PROJECT -->
@@ -88,7 +88,7 @@ How to run the driver code
 ### Applying Kernels
 | | | |
 |:-----:|:-----:|:-----:|
-|![result screenshots](Images/Blur1(Box.png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 |![result screenshots](Images/Blur2(box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
@@ -125,11 +125,13 @@ Morphological Transformations are some simple operations based on the image shap
 |![result screenshots2](Images/morphological.png)|![result screenshots2](Images/Erosion.png)|![result screenshots](Images/Dilation.png)|
 |Original|Erosion|Dilation|
 ### Masking
+A mask is a binary image consisting of zero- and non-zero values. If a mask is applied to another binary or to a grayscale image of the same size, all pixels which are zero in the mask are set to zero in the output image. All others remain unchanged.
 | | |
 |:---:|:------:|
 |![result screenshots2](Images/mask.jpg)|![result screenshots2](Images/masking.png)|
 |Original|Masking|
 ### Region Of Interest
+A region of interest (ROI) is a portion of an image that you want to filter or perform some other operation on. You define an ROI by creating a binary mask, which is a binary image that is the same size as the image you want to process with pixels that define the ROI set to 1 and all other pixels set to 0.
 | | |
 |:---:|:------:|
 |![result screenshots2](Images/roi.jpg)|![result screenshots2](Images/ROI.png)|
