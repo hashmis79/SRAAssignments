@@ -86,7 +86,7 @@ How to run the driver code
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
-| | |
+| | | |
 |:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box.png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
