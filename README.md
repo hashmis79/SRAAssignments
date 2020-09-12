@@ -86,15 +86,21 @@ How to run the driver code
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
-|  Use  | Table |  Here |
 |:-----:|:-----:|:-----:|
-|![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
+|![result screenshots](Images/Blur1(Box.png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
-|![result screenshots](Images/Blur2(Box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
+|![result screenshots](Images/Blur2(box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 ### Edge-Detection
-
-|  Use |  Table  |  Here |
+Edge Detection is a technique used for finding the boundaries of objects within images. IT works by detecting discontinuities in an image.Here we will be using 4 methods for edge Detection
+1) Vertical Edge Detection
+2) Horizontal Edge Detection
+3) Sobel Edge Detection
+4) Cranny Edge Detection
+#### Input images
+|:----:|:-------:|
+|![result screenshots2](Images/edge-detection.png)|![result screenshots1](Images/edge-detection2.jpg)|
+#### Output
 |:----:|:-------:|:-----:|
 |![result screenshots2](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
 |Vertical Edge Detection|
@@ -105,14 +111,23 @@ How to run the driver code
 |![result screenshots2](Images/Sobel1.png)|![result screenshots1](Images/Sobel2.png)|
 |Sobel Edge Detection|
 ||
-|![result screenshots2](Images/Canny1.png)|![result screenshots1](Images/Canny2.png)|
+|![result screenshots2](Images/Canny-Edge1.png)|![result screenshots1](Images/Canny-Edge2.png)|
 |Canny Edge Detection|
 ### Morphological Transformation
-| Use |  Table | Here |
+Morphological Transformations are some simple operations based on the image shape. It is normally performed on binary images.The basic operations we will be doing will be
+1) Erosion - It basically erodes away the boundaries of the foreground object. Hence used for image noise reduction.
+2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
 |:---:|:------:|:----:|
-|![result screenshots2](Images/Erosion.png)|![result screenshots](Images/Dilation.png)|
-|Erosion|Dilation|
-
+|![result screenshots2](Images/morphological.png)|![result screenshots2](Images/Erosion.png)|![result screenshots](Images/Dilation.png)|
+|Original|Erosion|Dilation|
+### Masking
+|:---:|:------:|
+|![result screenshots2](Images/mask.jpg)|![result screenshots2](Images/masking.png)|
+|Original|Masking|
+### Region Of Interest
+|:---:|:------:|
+|![result screenshots2](Images/roi.jpg)|![result screenshots2](Images/ROI.png)|
+|Original|ROI|
 <!-- FUTURE WORK -->
 <!-- ## Future Work
 * See [todo.md](https://todo.md) for seeing developments of this project
@@ -130,13 +145,14 @@ How to run the driver code
 <!-- CONTRIBUTORS -->
 ## Contributors
 * [Saad Hashmi](https://github.com/hashmis79)
-* [Member Name](https://github.com/id)
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
-* [SRA VJTI](http://sra.vjti.info/) Eklavya 2020  
-* Refered [this](https://link) for achieving this  
+* [SRA VJTI](http://sra.vjti.info/)  
+* Refered [OpenCV Tutorial](https://docs.opencv.org/trunk/d6/d00/tutorial_py_root.html) for achieving the basics of the above operations
+* Refered [this](https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123) for achieving Canny Edge Detection  
+
 ...
 
 
