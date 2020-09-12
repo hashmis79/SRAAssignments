@@ -120,8 +120,8 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 Morphological Transformations are some simple operations based on the image shape. It is normally performed on binary images.The basic operations we will be doing will be
 1) Erosion - It basically erodes away the boundaries of the foreground object. Hence used for image noise reduction.
 2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
-| ss| ss| ss|
-|:-----:|:-----:|:-----:|
+| | | | |
+|:---:|:---:|:---:|:---:|
 |![result screenshots](Images/morphological.png)|![result screenshots1](Images/Erosion.png)|![result screenshots1](Images/Dilation.png)|
 |Original|Erosion|Dilation|
 ### Masking
