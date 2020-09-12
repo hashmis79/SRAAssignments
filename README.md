@@ -99,9 +99,11 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 3) Sobel Edge Detection
 4) Cranny Edge Detection
 #### Input images
+| | |
 |:----:|:-------:|
 |![result screenshots2](Images/edge-detection.png)|![result screenshots1](Images/edge-detection2.jpg)|
 #### Output
+| | | |
 |:----:|:-------:|:-----:|
 |![result screenshots2](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
 |Vertical Edge Detection|
@@ -118,14 +120,17 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 Morphological Transformations are some simple operations based on the image shape. It is normally performed on binary images.The basic operations we will be doing will be
 1) Erosion - It basically erodes away the boundaries of the foreground object. Hence used for image noise reduction.
 2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
+| | | |
 |:---:|:------:|:----:|
 |![result screenshots2](Images/morphological.png)|![result screenshots2](Images/Erosion.png)|![result screenshots](Images/Dilation.png)|
 |Original|Erosion|Dilation|
 ### Masking
+| | |
 |:---:|:------:|
 |![result screenshots2](Images/mask.jpg)|![result screenshots2](Images/masking.png)|
 |Original|Masking|
 ### Region Of Interest
+| | |
 |:---:|:------:|
 |![result screenshots2](Images/roi.jpg)|![result screenshots2](Images/ROI.png)|
 |Original|ROI|
