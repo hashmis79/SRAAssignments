@@ -21,11 +21,11 @@ Manually Applied Different Procedures in Image Processing
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## About The Project
 [![In this project][product-screenshot]](https://example.com)  
 
 Aim and Description of project.  
-Refer this [documentation](https://link/to/report/)
+Refer this [documentation](https://link/to/report/) -->
 
 ### Tech Stack
 This section should list the technologies you used for this project. Leave any add-ons/plugins for the prerequisite section. Here are a few examples.
@@ -77,7 +77,7 @@ git clone https://github.com/your_username_/Project-Name.git
 ```
 How to run the driver code
 ``` -->
- -->
+
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
@@ -88,8 +88,7 @@ Image rotation is a common image processing routine with applications in matchin
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
 An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
-1) Blurring
-2) Sharpening
+1) Blurring 2) Sharpening
 | | | |
 |:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
@@ -126,7 +125,7 @@ Morphological Transformations are some simple operations based on the image shap
 2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
 | | | |
 |:---:|:---:|:---:|
-|![result screenshots](Images/morphological.png)|![result screenshots1](Images/Erosion.png)|![result screenshots1](Images/Dilation.png)|
+|![result screenshots1](Images/morphological.png)|![result screenshots1](Images/Erosion.png)|![result screenshots1](Images/Dilation.png)|
 |Original|Erosion|Dilation|
 ### Masking
 A mask is a binary image consisting of zero- and non-zero values. If a mask is applied to another binary or to a grayscale image of the same size, all pixels which are zero in the mask are set to zero in the output image. All others remain unchanged.
