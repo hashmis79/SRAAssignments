@@ -107,7 +107,7 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 |![result screenshots2](Images/edge-detection.png)|![result screenshots1](Images/edge-detection2.jpg)|
 #### Output
 | | | |
-|:----:|:-------:|:-----:|
+|:----:|:-------:|
 |![result screenshots2](Images/Vertical1.png)|![result screenshots1](Images/Vertical2.png)|
 |Vertical Edge Detection|
 ||
