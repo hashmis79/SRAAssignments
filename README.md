@@ -87,10 +87,10 @@ Image rotation is a common image processing routine with applications in matchin
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
-An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
-1) Blurring2) Sharpening
-| | | | |
-|:-----:|:-----:|:-----:|:----:|
+<!-- An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
+1) Blurring2) Sharpening -->
+| | | |
+|:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
 |Box Filter|Gaussian Filter|Sharpen Filter|
 |![result screenshots](Images/Blur2(box).png)|![result screenshots1](Images/Blur2(Gaussian).png)|![result screenshots1](Images/Sharpen2better.png)|
