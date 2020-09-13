@@ -87,8 +87,13 @@ Image rotation is a common image processing routine with applications in matchin
 |:----:|:-------:|
 |![result screenshots](Images/rotate1.png)|![result screenshots1](Images/rotate2.png)|
 ### Applying Kernels
-<!-- An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
-1) Blurring2) Sharpening -->
+An image kernel is a small matrix used to apply effects like the ones you might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. We will be applying 2 kernel operations
+1) Blurring2) Sharpening
+#### Input images
+| | |
+|:----:|:-------:|
+|![result screenshots2](Images/blur.jpeg)|![result screenshots1](Images/filter.jpg)|
+#### Output
 | | | |
 |:-----:|:-----:|:-----:|
 |![result screenshots](Images/Blur1(Box).png)|![result screenshots1](Images/Blur1(Gaussian).png)|![result screenshots1](Images/Sharpen1.png)|
@@ -123,6 +128,7 @@ Edge Detection is a technique used for finding the boundaries of objects within 
 Morphological Transformations are some simple operations based on the image shape. It is normally performed on binary images.The basic operations we will be doing will be
 1) Erosion - It basically erodes away the boundaries of the foreground object. Hence used for image noise reduction.
 2) Dilation - It is the opposite of erosion. It increase the area of the object. Used for restoring eroded images.
+#### Output
 | | | |
 |:---:|:---:|:---:|
 |![result screenshots1](Images/morphological.png)|![result screenshots1](Images/Erosion.png)|![result screenshots1](Images/Dilation.png)|
