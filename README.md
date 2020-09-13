@@ -92,7 +92,7 @@ An image kernel is a small matrix used to apply effects like the ones you might 
 #### Input images
 | | |
 |:----:|:-------:|
-|![result screenshots2](Images/blur.jpeg)|![result screenshots1](Images/filter.jpg)|
+|![result screenshots2](Images/blur.jpeg)|![result screenshots1](Images/filter.png)|
 #### Output
 | | | |
 |:-----:|:-----:|:-----:|
@@ -155,8 +155,8 @@ A region of interest (ROI) is a portion of an image that you want to filter or p
 
 
 <!-- TROUBLESHOOTING -->
-## Troubleshooting
-* Common errors while configuring the project
+<!-- ## Troubleshooting
+* Common errors while configuring the project -->
 
 
 <!-- CONTRIBUTORS -->
@@ -174,5 +174,5 @@ A region of interest (ROI) is a portion of an image that you want to filter or p
 
 
 <!-- LICENSE -->
-## License
-Describe your [License](LICENSE) for your project.
+<!-- ## License
+Describe your [License](LICENSE) for your project. -->
